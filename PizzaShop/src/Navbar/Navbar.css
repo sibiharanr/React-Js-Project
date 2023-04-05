@@ -1,0 +1,46 @@
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+  }
+
+  
+  .Navbar .Left{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .Navbar .Left img {
+    width: 70px;
+  }
+  
+  .Navbar .Right {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+  }
+  
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .Navbar .Right button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Navbar .Right svg {
+    font-size: 40px;
+  }
